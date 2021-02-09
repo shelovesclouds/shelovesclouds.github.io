@@ -11,7 +11,7 @@ if (url.searchParams.get('by') != null) {
 }
 
 var backsound = new Audio();
-backsound.src = "PegangTanganku.mp3";
+backsound.src = "audio/PegangTanganku.mp3";
 
 let footer = document.getElementById("credit");
 footer.innerHTML = sender;
