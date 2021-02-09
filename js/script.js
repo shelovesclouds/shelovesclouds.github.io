@@ -14,7 +14,7 @@ var backsound = new Audio();
 backsound.src = "audio/PegangTanganku.mp3";
 
 let footer = document.getElementById("credit");
-footer.innerHTML = 'shelovesclouds';
+footer.innerHTML = "shelovesclouds";
 footer.href = "https://www.instagram.com/buatyunita/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
@@ -386,15 +386,3 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
-
-// var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-// if (!isChrome){
-//     $('#iframeAudio').remove()
-// }
-// else {
-//     $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-// }
-
-// window.onload = function() {
-//   var context = new AudioContext();
-// }
