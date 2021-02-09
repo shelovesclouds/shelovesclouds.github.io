@@ -14,7 +14,7 @@ var backsound = new Audio();
 backsound.src = "audio/PegangTanganku.mp3";
 
 let footer = document.getElementById("credit");
-footer.innerHTML = sender;
+footer.innerHTML = 'shelovesclouds';
 footer.href = "https://www.instagram.com/buatyunita/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
